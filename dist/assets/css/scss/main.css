@@ -172,4 +172,30 @@ body #costemNav ul li:hover {
   height: 100vh;
   background: #000a01;
 }
+
+body {
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+body .scrooll {
+  height: 0 !important;
+}
+
+body.page-loaded {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+body.page-loaded .scrooll {
+  height: 100% !important;
+}
+
+body.page-loaded .scrooll .swiper-slide {
+  -webkit-box-shadow: 5px 5px 10px #040404c5;
+          box-shadow: 5px 5px 10px #040404c5;
+}
 /*# sourceMappingURL=main.css.map */

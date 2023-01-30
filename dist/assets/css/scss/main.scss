@@ -116,11 +116,29 @@ body #costemNav {
 .HomeContaner {
     display: none;
 }
-
 .lodingpag {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     background: #000a01;
+}
+body{
+    height: 100vh;
+    overflow-y:hidden ;
+    .scrooll{
+       height: 0 !important;
+    }
+}
+
+body.page-loaded {
+    height: fit-content;
+    overflow-y:scroll ;
+    scroll-behavior: smooth;
+    .scrooll{
+        height: 100% !important;
+        .swiper-slide{
+            box-shadow: 5px 5px 10px #040404c5;
+        }
+    }
 }
