@@ -1,0 +1,32 @@
+.valed {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+
+    h1 {
+        color: rgb(24, 203, 0);
+    }
+
+    img {
+        border-radius: 50%;
+        box-shadow: 0 0 15px #33ff41;
+        margin: 20px;
+    }
+}
+
+label {
+    width: 100% !important;
+    margin-top: 20px;
+
+    i {
+        color: #00c30d;
+    }
+}
+
+.form-btn:hover {
+    box-shadow: 0 0 10px #338fff;
+    border-radius: 10px;
+}

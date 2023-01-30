@@ -1,0 +1,122 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.108.0">
+    <title>افق اخضر</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/checkout/">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon/favicon-16x16.png">
+    <link rel="mask-icon" href="./assets/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="./assets/css/libs.bundle.css" />
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="./assets/css/theme.bundle.css" />
+    <link rel="stylesheet" href="./assets/css/scss/main.css">
+  </head>
+  <body class="bg-light">
+    
+    <div class="container">
+      <main>
+        <div class="py-5 text-center">
+          <img class="d-block mx-auto mb-4" src="./assets/svgs/logo.svg" alt="افق اخضر" width="72" height="57">
+          <h2>Checkout form</h2>
+          <p class="lead"></p>
+        </div>
+        <div class="valed">
+          <img src="./assets/svgs/true.png" alt="valed request">
+          <h1>Your message was send</h1>
+        </div>
+        <div class="formcountaner row g-5 justify-content-center align-items-start">
+          <div class="col-md-6 col-lg-6">
+            
+            <form class="needs-validation" id="contactForm" >
+              <div class="row g-3">
+                <div class="col-12">
+                  <label for="Name" class="form-label">  <i class="fa-solid fa-address-card"></i> Your full name in Arabic<span class="text-muted"></span></label>
+                  <input required type="text" class="form-control" id="Name" placeholder="محمد اشرف الشايب">
+                  <div class="invalid-feedback">
+                    Please enter a valid Name in arabic .
+                  </div>
+                </div>
+  
+                </div>
+    
+                <div class="col-12">
+                  <label for="email" class="form-label">  <i class="fa-solid fa-envelope"></i> Email<span class="text-muted"></span></label>
+                  <input required type="email" class="form-control" id="email" placeholder="you@example.com">
+                  <div class="invalid-feedback">
+                    Please enter a valid email address .
+                  </div>
+                </div>
+
+                <div class="col-12">
+                  <label for="phone" class="form-label">  <i class="fa-solid fa-phone"></i> Phone Numper<span class="text-muted"></span></label>
+                  <input required type="phone" class="form-control" id="phone" placeholder="+201001234567">
+                  <div class="invalid-feedback">
+                    Please enter a valid Phone Numper .
+                  </div>
+                </div>
+
+                <div class="col-12">
+                  <label for="address" class="form-label">  <i class="fa-solid fa-location-dot"></i> Address</label>
+                  <input required type="text" class="form-control" id="address" placeholder="1234 Main St" >
+                  <div class="invalid-feedback">
+                    Please enter your address.
+                  </div>
+                </div>
+                <div class="col-12">
+
+                   <div class="row-cols-md-5">
+                  <label for="country" class="form-label">  <i class="fa-solid fa-earth-americas"></i> Country</label>
+                  <select class="form-select" id="country">
+                    <option value="">Choose...</option>
+                    <option>United States</option>
+                  </select>
+                  <div class="invalid-feedback">
+                    Please select a valid country.
+                  </div>
+                 </div>
+                </div>
+    
+              <!-- -------calender------------------ -->
+              <div class="row-cols-md-5">
+                <label for="country" class="form-label"> <i class="fa-solid fa-calendar-days"></i> Your Birthday</label>
+                <input required type="date" class="form-control" id="date" placeholder="12/1/2001" required>
+                  <div class="invalid-feedback">
+                <div class="invalid-feedback">
+                  Please select a valid date.
+                </div>
+              </div>
+              <!-- -----------End calender-------------------->
+              </div>
+              <hr class="my-4">
+              <button class="w-100 btn btn-primary btn-lg form-btn" type="submit">Continue to checkout</button>
+            </form>
+          </div>
+          <div class="col-md-5 col-lg-5 ">
+            <img style="width: 350px;" src="./assets/images/banners/banner-15.png"/>
+    </div>
+        </div>
+      </main>
+    
+      <footer class="my-5 pt-5 text-muted text-center text-small">
+        <p class="mb-1">© 2017–2022 Company Name</p>
+        <ul class="list-inline">
+          <li class="list-inline-item"><a href="#">Privacy</a></li>
+          <li class="list-inline-item"><a href="#">Terms</a></li>
+          <li class="list-inline-item"><a href="#">Support</a></li>
+        </ul>
+      </footer>
+    </div>
+    
+  
+        <script src="https://kit.fontawesome.com/fdab938951.js" crossorigin="anonymous"></script> 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+        <script src="./assets/js/form.js"></script>
+        <!-- <script src="./assets/js/form.js"></script> -->
+    </div></body>
